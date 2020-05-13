@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#462323"
+    android:orientation="vertical"
+    tools:context=".Activityintro">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="478dp"
+        android:layout_height="108dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-1601739538962474/6354123070"></com.google.android.gms.ads.AdView>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/intropic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#721B0D0D"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-120dp"
+        android:fontFamily="@font/luckiest_guy"
+        android:padding="8dp"
+        android:text="Forza Horizon \nIntroduction"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="22dp"
+        android:fontFamily="@font/autour_one"
+        android:padding="8dp"
+        android:text="Forza Horizon is a 2012 racing video game developed by Playground Games and published by Microsoft Studios for the Xbox 360. The game is the fifth instalment in the Forza series.  The setting takes place in the fictitious Horizon Festival, a street racing event set in the state of Colorado. The aim is to progress via winning races, while also increasing the popularity level by performing stunts. Players can drive off-road in select areas while others are limited by guardrails or other means.\n
+    \n       Forza Horizon was released in October 2012 to critical acclaim, beginning a new sub-series under the Forza name to coincide with the original Forza Motorsport series. Horizon has spawned three sequels that also garnered critical acclaim: Forza Horizon 2 in 2014, Forza Horizon 3 in 2016, and Forza Horizon 4 in 2018."
+        android:textAlignment="textStart"
+        android:textColor="@color/colorWhite"
+        android:textSize="10dp" />
+
+
+
+
+</LinearLayout>

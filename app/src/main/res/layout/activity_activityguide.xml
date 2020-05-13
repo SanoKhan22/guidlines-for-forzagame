@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#837D7A"
+    tools:context=".Activityguide">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-1601739538962474/6354123070"></com.google.android.gms.ads.AdView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/guide" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="-100dp"
+            android:background="#721B0D0D"
+            android:fontFamily="@font/luckiest_guy"
+            android:padding="8dp"
+            android:text="Tips/Guide"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="47dp" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="#BF5F1C1C"
+            android:fontFamily="@font/capriola"
+            android:padding="8dp"
+            android:text="Hello,\n  several hours into the game
+            now, I want to share some tips and tricks to
+            speed up your game progress, if you're
+             interested in that. Feel free to add tips, too."
+            android:textAlignment="textStart"
+            android:textColor="#FDFAFA"
+            android:textSize="20dp" />
+
+
+        //tips
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#165A8F"
+            android:fontFamily="@font/graduate"
+            android:padding="8dp"
+            android:text="BUY THE RIGHT HOUSES FIRST\n\n
+The Lake Lodge normally costs 5 million CR but it's free for VIPs and unlocks 2x Forzathon Points. The points you can use to buy wheelspins (10 points each) or rare cars (like FE editions)
+The Huntman's Lodge for 750,000 CR unlocks Skillsongs for the radios! It was my first grab. Perfect when you got FE cars with a skill bonus of your taste (I prefer destruction skill boosts). Invest car mastery in the car to further enhance skill point boost and generation! Great to get extra mastery points and Wheelspins.
+Fairlawn Manor for 2 million CR unlocks Fast Travel anywhere. This is the most important perk in the game for fast progression. See next paragraph."
+            android:textAlignment="center"
+            android:textColor="#FDFAFA"
+            android:textSize="20dp" />
+
+
+        //next tip
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:background="#BF31113D"
+            android:fontFamily="@font/capriola"
+            android:padding="8dp"
+            android:text="
+FAST TRAVEL - Beam me up!\n\n
+Progress pusher no. 1 is Fast Travel. Normal Fast Travel allows you only to fast travel to the Festival and houses you own. If you own Fairlawn Manor however, you can fast travel to any point on a road! This is the perfect tool to quickly work down the many challenges and board signs. It works in Forzathon Live, too: never be late again! It's costy at start though. So the best idea is to collect all fast travel boards first, 50 in total. Each board will reduce the travel cost. Having all sets it to zero. Try to find a map online or buy the Treasure Map for 3 bucks to have it easier."
+            android:textAlignment="textStart"
+            android:textColor="#FDFAFA"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#BF1C5157"
+            android:fontFamily="@font/autour_one"
+            android:padding="8dp"
+            android:text="FAST TRAVEL Board No. 50\n\n
+It's the most challenging board, hence it's own paragraph. You find it on the church roof east of the Broadway Windmill in the south of the map. West of the church is a small slope you can use as ramp. Get a hypercar and start from the road next to the Windmill in the west, you can see the church from there. I recommend a 4WD conversion, offroad tires and increased ride height. Don't forget to turn on rewind for it, so you can correct a close jump!"
+            android:textAlignment="textStart"
+            android:textColor="#FDFAFA"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:background="#BF332C0D"
+            android:fontFamily="@font/capriola"
+            android:padding="8dp"
+            android:text="CAR MASTERY snf PERKS\n\n
+When driving a car for while you get car mastery points for skill chains etc. You can use the points to car specific perks and one-time bonuses like wheelspins and influence gain. The mastery point pool is shared with all cars! So you don't have to spend them in the cars you earned them in! I recommend to save up the the first points for a good Forza Edition car and boost its skill generation. Some very expensive cars have high influence bonus perks (one-time), you should get those to boost your influence progress!"
+            android:textAlignment="textStart"
+            android:textColor="#FDFAFA"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#B4125886"
+            android:fontFamily="@font/autour_one"
+            android:padding="8dp"
+            android:text="SEASON FORZATHONS\n\n
+The game has a weekly season change and a corresponding Forzathon. You can join these, once you're done with the Prologue and find them under the tab Horizon Life. The event has a weekly challenge and a range of daily challenges (which have a timer of a few days to be more fair). In addition there's a bonus when completing 7 daily challenges an the weekly challenges. Don't miss out the seasonal cars! The common car harldy is worth the points (150 FP, you can buy 15 wheelspins for that), but the rare one (300 FP) is!
+"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
+
+        // Random tips
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp"
+            android:background="#B40A0505"
+            android:fontFamily="@font/luckiest_guy"
+            android:padding="8dp"
+            android:text="Random Tips"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#B4462B24"
+            android:fontFamily="@font/autour_one"
+            android:padding="8dp"
+            android:text="Steering - having trouble staying on the road?\n\n
+Try the Advanced Control Settings: Settings - Control Settings - Press X for Advanced Controls
+Thanks to KBowTuning for pointing out! His recommended settings: Deadzones 0 for Inside and 100 for Outside, normal steering (instead of Simulation). Tweak Linearity (default 50) to adjust input increase, setting it to 55 which works perfect for me."
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:background="#F02E1952"
+            android:fontFamily="@font/capriola"
+            android:padding="8dp"
+            android:text="Quickest way to find and claim your DLC cars?\n\n
+You need to have unlocked the 2nd house in the Prologue. Visit it and select the autoshow. As in FH3 you have to purchase the cars indivually (for 0 C). You can either filter the cars by cost or select the DLC cars tab and BUY and download them from there. Caution: you might get asked to actually pay for a car, if you have got it outside the DLC tab already!"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
